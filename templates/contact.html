@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html lang="lv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <h1>Contacts</h1>
-        <p>Esmu super programmētajs.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla beatae earum, repudiandae ipsam doloremque minus soluta officia non odio iure? Consequuntur accusantium dolores voluptas dicta temporibus. Praesentium dolores perspiciatis ipsam.</p>
-    </div>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block saturs %}
+<h1>Contacts</h1>
+<p>Tel: +371 25133787</p>
+<p>bruh</p>
+{% endblock %}
